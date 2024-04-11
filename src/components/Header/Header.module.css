@@ -1,0 +1,32 @@
+.header {
+  background-color: var(--c-grey);
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  align-items: center;
+}
+.title {
+  text-align: center;
+}
+.wrapper {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.logo {
+  background-color: var(--c-yellow);
+  height: 40px;
+  width: 180px;
+  margin-right: 145px;
+}
+.list {
+  display: flex;
+  gap: 20px;
+}
+.item {
+  background-color: var(--c-lightYellow);
+  height: 40px;
+  width: 50px;
+}

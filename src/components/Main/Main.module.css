@@ -1,0 +1,32 @@
+.section {
+  background-color: var(--c-grey);
+  flex-direction: column;
+  padding-bottom: 20px;
+  max-width: 800px;
+  display: flex;
+}
+.title {
+  padding-bottom: 15px;
+  text-align: center;
+  padding-top: 15px;
+}
+.container {
+  flex-direction: column;
+  max-width: 800px;
+  display: flex;
+}
+.contentContainer {
+  flex-direction: column;
+  display: flex;
+  gap: 25px;
+}
+.content {
+  background-color: pink;
+  margin: 0 auto;
+  width: 750px;
+  height: 70px;
+}
+.test {
+  display: flex;
+  justify-content: space-between;
+}

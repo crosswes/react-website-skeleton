@@ -1,0 +1,8 @@
+.banner {
+  background-color: var(--c-grey);
+  justify-content: center;
+  margin-bottom: 25px;
+  align-items: center;
+  display: flex;
+  height: 150px;
+}
