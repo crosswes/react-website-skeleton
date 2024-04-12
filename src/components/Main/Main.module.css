@@ -22,11 +22,9 @@
 }
 .content {
   background-color: pink;
+  padding-right: 25px;
+  padding-left: 25px;
   margin: 0 auto;
   width: 750px;
   height: 70px;
-}
-.test {
-  display: flex;
-  justify-content: space-between;
 }

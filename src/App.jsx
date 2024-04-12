@@ -1,7 +1,9 @@
 import Header from "./components/Header/Header";
 import Banner from "./components/Banner/Banner";
 import Main from "./components/Main/Main";
-// import Aside from "./components/Aside/Aside";
+
+// Styles
+import "./styles/index.css";
 
 function App() {
   return (
@@ -9,7 +11,6 @@ function App() {
       <Header />
       <Banner />
       <Main />
-      {/* <Aside /> */}
     </>
   );
 }

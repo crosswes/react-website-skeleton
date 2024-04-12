@@ -5,8 +5,7 @@ import cn from "classnames";
 import styles from "./Banner.module.css";
 
 // Styles
-import "/Users/crosswes/react-website-skeleton/src/styles/index.css";
-import "/Users/crosswes/react-website-skeleton/src/styles/base.css";
+import "/src/styles/index.css";
 
 const Banner = () => {
   return <div className={cn([styles.banner])}>Full-width Banner image</div>;

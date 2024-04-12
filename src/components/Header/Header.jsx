@@ -2,13 +2,14 @@
 import cn from "classnames";
 
 // Styles
-import "/Users/crosswes/react-website-skeleton/src/styles/index.css";
-import "/Users/crosswes/react-website-skeleton/src/styles/base.css";
+import "/src/styles/index.css";
 
 // Module Styles
 import styles from "./Header.module.css";
 
 const Header = () => {
+  const items = Array(5).fill(null);
+
   return (
     <header className={cn([styles.header])}>
       <div className={cn([styles.wrapper])}>
@@ -16,11 +17,14 @@ const Header = () => {
         <div className={cn([styles.title])}>Blog name</div>
         <nav>
           <ul className={cn([styles.list])}>
+            {items.map((_, index) => (
+              <li key={index} className={cn([styles.item])}></li>
+            ))}
+            {/* <li className={cn([styles.item])}></li>
             <li className={cn([styles.item])}></li>
             <li className={cn([styles.item])}></li>
             <li className={cn([styles.item])}></li>
-            <li className={cn([styles.item])}></li>
-            <li className={cn([styles.item])}></li>
+            <li className={cn([styles.item])}></li> */}
           </ul>
         </nav>
       </div>
@@ -29,3 +33,14 @@ const Header = () => {
 };
 
 export default Header;
+
+// //
+// const items = Array(5).fill(null);
+// <nav>
+//   <ul className={cn([styles.list])}>
+//     {items.map((item, index) => (
+//       <li key={index} className={cn([styles.item])}></li>
+//     ))}
+//   </ul>
+// </nav>;
+// //
